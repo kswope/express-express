@@ -1,7 +1,7 @@
 {
   "name": "express-express",
   "description": "Express' application generator with brunch.io and app reloading",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Kevin Swope",
     "email": "github-kevdev@snkmail.com"
