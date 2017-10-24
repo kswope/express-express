@@ -1,7 +1,7 @@
 {
   "name": "express-express",
   "description": "Express' application generator with brunch.io and app reloading",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": {
     "name": "Kevin Swope",
     "email": "github-kevdev@snkmail.com"
@@ -43,7 +43,9 @@
   "files": [
     "LICENSE",
     "bin/",
-    "templates/"
+    "templates/",
+    "brunch.png",
+    "express-express.svg"
   ],
   "scripts": {
     "lint": "eslint .",
