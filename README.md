@@ -8,6 +8,15 @@ Barely worthwhile fork of [Express' application generator](https://github.com/ex
 * hot reloads backend express app ( no need for nodemon )
 * optionally reloads browser when backend is hot reloaded ( default )
 
+### What doesn't reload?
+Doesn't do HMR of frontend javascript things yet.  I think this is a feature
+that will be added to brunch.io eventually.  In other words, if you change a
+javascript module that is loaded in the browser, it won't silently reload it,
+it will reload the browser instead.  (Neither does React React App by default,
+ironically).  I don't see this as much of a problem because I envision
+express-express generating old school websites or backends for SPA's developed
+separately.
+
 
 ## Generator options
 ```
