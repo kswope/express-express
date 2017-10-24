@@ -278,7 +278,7 @@ function createApplication (name, path) {
         'serve-favicon': '~2.4.5'
       },
       "devDependencies": {
-        "auto-reload-brunch-express": "git+ssh://git@github.com:kswope/auto-reload-brunch-express",
+        "auto-reload-brunch-express": "0.1.0",
         "brunch": "^2",
         "clean-css-brunch": "^2",
         "uglify-js-brunch": "^2",
