@@ -273,16 +273,15 @@ function createApplication (name, path) {
         'body-parser': '~1.18.2',
         'cookie-parser': '~1.4.3',
         'debug': '~2.6.9',
-        'express': '~4.15.5',
+        'express': '^4.16.2',
         'morgan': '~1.9.0',
         'serve-favicon': '~2.4.5'
       },
       "devDependencies": {
-        "auto-reload-brunch-express": "0.1.0",
+        "auto-reload-brunch-express": "~0.1.3",
         "brunch": "^2",
         "clean-css-brunch": "^2",
         "uglify-js-brunch": "^2",
-        "autoprefixer": "^7.1.6",
       }
     }
 
