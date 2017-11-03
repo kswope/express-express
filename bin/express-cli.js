@@ -265,9 +265,9 @@ function createApplication (name, path) {
       version: '0.0.0',
       private: true,
       scripts: {
-        "start": "node ./bin/www",
-        "dev": "brunch watch",
-        "build": "brunch build --production"
+        "start": "NODE_PATH=`pwd` node ./bin/www",                                                                                                    
+        "dev":   "NODE_PATH=`pwd` LOGGY_STACKS=1 brunch watch",                                                                                       
+        "build": "brunch build --production"                                                                                                          
       },
       dependencies: {
         'body-parser': '~1.18.2',
@@ -278,7 +278,7 @@ function createApplication (name, path) {
         'serve-favicon': '~2.4.5'
       },
       "devDependencies": {
-        "auto-reload-brunch-express": "~0.1.3",
+        "auto-reload-brunch-express": "~0.1.4",
         "brunch": "^2",
         "clean-css-brunch": "^2",
         "uglify-js-brunch": "^2",

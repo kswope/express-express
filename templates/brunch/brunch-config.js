@@ -19,7 +19,7 @@ module.exports = {
         reloadBrowser: true,
         path: './app.js',
         port: 3000,
-        watch: [ 'app.js', 'routes', 'views' ]
+        watch: [ 'config', 'lib', 'app.js', 'routes', 'views' ]
       }
     }
   },
