@@ -1,0 +1,5 @@
+
+
+add 'app.js' to watch files
+
+find uncaught promise when brunch-config changes
